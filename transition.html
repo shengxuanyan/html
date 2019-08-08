@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    #div1{
+        transition-property: height;
+        transition: 2s;
+        height: 30px;
+        width: 30px;
+        overflow: hidden;
+    }
+    span{
+        width: 30px;
+        color: #999;
+        text-align: center;
+        
+    }
+    #div2{
+        height: 30px;
+        width: auto;
+        background-color: black;
+    }
+    #div1:hover { width:150px;}
+</style>
+<body>
+    <!-- 菜单动画 -->
+    <div onmouseover="myfunction()" id="div1">
+        <div id="div2">
+            <span>hhhhh</span>
+        </div>
+    </div>
+</body>
+</html>
+<script language="javascript">
+    
+</script>
