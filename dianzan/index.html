@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="http://127.0.0.1:35729/livereload.js?ext=Chrome&amp;extver=2.1.0"></script>
+    <title>Document</title>
+</head>
+<style>
+    .middle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    body{
+        height: 100vh;
+    }
+    .main{
+        width:200px;
+        height:250px;
+        background-color: pink;
+        margin: 20% 40% ;
+        /* border: 1px solid black; */
+
+    }
+    .content{
+        text-align: center;
+        color:white;
+        /* border: 1px solid black; */
+
+    }
+    .like-wrap{
+        height: 20%;
+        font-size: 20px;
+        background-color: black;
+        color: #fff;
+        cursor: pointer;
+        user-select: none;
+        margin-top:80%;
+    }
+    .like-active{
+        color:pink;
+    }
+    .like {
+      position: absolute;
+      color: #ccc;
+      font-size: 20px;
+      user-select: none;
+    }
+</style>
+<body class="middle">
+    <div class="main">
+        <div class="content middle">
+            <p>i like you so much<br>so much<br>so much</p>
+        </div>
+        <div class="like-wrap middle">
+            <i class="fa fa-heart"></i><span>like</span>
+        </div>
+    </div>
+    <script src="./dianzan.js"></script>
+</body>
+</html>
